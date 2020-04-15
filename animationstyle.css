@@ -72,17 +72,20 @@
 }
 
 .ex-12-bottom-white {
-    animation: movimento 3s
+    animation: movimento 3s linear;
 }
 
 @keyframes movimento {
-
+    0% {right: 30px;}
+    50% {right: calc(100% - 60px);}
+    100% {right: 30px;}
 }
 
 .ex-13-bottom-white {
-    animation: movement 3s;
+    animation: movement 3s linear;
 }
 
 @keyframes movement {
+    
 
 }
